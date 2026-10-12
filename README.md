@@ -1,5 +1,7 @@
 # Sartaj Ali — Personal Portfolio Website
 
+🌐 **Live URL:** [https://sartajali.vercel.app](https://sartajali.vercel.app)
+
 A modern, high-performance personal portfolio website engineered for **Sartaj Ali** (Full-Stack Developer | AI Engineer | Blockchain Developer).
 
 Built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS**, **Framer Motion**, and **Lucide Icons**.
@@ -68,17 +70,10 @@ npx vercel
 Follow the interactive prompts (defaults are automatic for Vite projects).
 
 ### Method 2: Via GitHub & Vercel Dashboard
-1. Initialize git and push to GitHub:
+1. Push latest code to GitHub:
    ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio release"
-   git branch -M main
-   git remote add origin https://github.com/Sartaj-25/portfolio.git
-   git push -u origin main
+   git push origin main
    ```
-2. Go to [vercel.com](https://vercel.com) -> **Add New Project**.
-3. Import your repository. Vercel will automatically detect **Vite** and configure:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-4. Click **Deploy**.
+2. Go to [vercel.com](https://vercel.com) -> Select your project -> **Settings** -> **Domains**.
+3. Add or assign domain: `sartajali.vercel.app`.
+4. Vercel will immediately route the domain to your latest deployment.
